@@ -16,8 +16,7 @@ Data yang dikelola: produk (kode, nama, kategori, harga, stok).
 2. Import `database/toko.sql` melalui phpMyAdmin atau terminal:
    `mysql -u root -p < database/toko.sql`
 3. Sesuaikan koneksi pada `config/database.php` (host, user, password).
-4. Buka `http://localhost/mvc-produk-109062500151/public/index.php`.
-
+4. Buka `localhost/mvc-produk-109062500151/public/index.php`.
 ## Struktur MVC
 
 - `app/models/` : akses dan operasi data (`Produk.php`).
@@ -37,14 +36,19 @@ Data yang dikelola: produk (kode, nama, kategori, harga, stok).
 
 ## Histori Git
 
-Hasil `git log --oneline` :
-add installation and MVC documentation
-add front controller and routing
-add front controller and routing
-rename views folder to lowercase
-add complete product CRUD views
-add complete product CRUD controller
-add complete product CRUD model
-add PDO database connection
-add product database schema and seed data
-initialize mvc php native project
+## Histori Git
+
+Hasil `git log --oneline`:
+
+```
+ca32d9e docs: add installation and MVC documentation
+63d7331 feat: add front controller and routing
+137e2d8 feat: add front controller and routing
+fd5196e fix: rename views folder to lowercase
+9c1041c feat: add complete product CRUD views
+20a09f9 feat: add complete product CRUD controller
+467be63 feat: add complete product CRUD model
+0295c01 feat: add PDO database connection
+328cd3c feat: add product database schema and seed data
+f356374 chore: initialize mvc php native project
+```
